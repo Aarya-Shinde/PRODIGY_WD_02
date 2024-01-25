@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-repeat: no-repeat;
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("pikachu.jpg");
+    background-size: cover;
+    background-position: center top;
+}
+h1{
+    margin-bottom: 30px;
+}
+
+#container{
+    margin: 150px 200px 250px 250px;
+    padding: 30px;
+    border: 2px white;
+    background-color: transparent;
+
+}
+
+#stopwatch {
+    font-size: 3em;
+    margin: 40px 0;
+}
+
+#lap-times {
+    text-align: left;
+    margin: 00px 10px 0px 550px ;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #ffe81e;
+    color: black;
+}
+button:hover , button:active{
+    background-color: crimson;
+}
